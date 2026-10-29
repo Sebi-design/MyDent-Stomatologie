@@ -1,0 +1,12 @@
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

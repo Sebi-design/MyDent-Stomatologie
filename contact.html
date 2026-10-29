@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact &amp; Localizare | MyDent Stomatologie Oradea</title>
+    <meta name="description" content="Contactează clinica stomatologică MyDent din Oradea. Telefon: 0359 451 633. Adresă: Calea Armatei Române 22. Solicită o programare online." />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=5" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png?v=5" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=5" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=5" />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact &amp; Localizare | MyDent Stomatologie Oradea" />
+    <meta property="og:description" content="Informații de contact, program de consultații și hartă de acces la MyDent Stomatologie pe Calea Armatei Române 22, Oradea." />
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:image" content="images/clinic/entrance_door.jpg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Site Header -->
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="index.html" style="display: flex; align-items: center; text-decoration: none;" aria-label="MyDent Stomatologie Oradea - Acasă">
+          <img src="images/mydent-logo.png" alt="MyDent Stomatologie Oradea" class="header-brand-logo" />
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navigare principală">
+          <a href="index.html" class="editorial-nav-item">Acasă</a>
+          <a href="servicii.html" class="editorial-nav-item">Servicii</a>
+          <a href="despre-noi.html" class="editorial-nav-item">Spațiu &amp; Concept</a>
+          <a href="index.html#recenzii" class="editorial-nav-item">Recenzii</a>
+          <a href="index.html#faq" class="editorial-nav-item">Întrebări Frecvente</a>
+          <a href="contact.html" class="editorial-nav-item active">Contact</a>
+        </nav>
+
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <a href="#programare" class="btn-nav-enquire desktop-enquire-btn" style="display: none;">
+            <span>Programare</span>
+            <span style="font-size: 0.85rem; line-height: 1; color: var(--color-primary-accent);">+</span>
+          </a>
+
+          <button type="button" class="mobile-toggle" id="mobileToggleBtn" aria-expanded="false" aria-label="Deschide meniul principal">
+            <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="display: none;"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Meniu de navigare">
+      <div style="display: flex; flex-direction: column;">
+        <span class="editorial-label" style="margin-bottom: 1.5rem;">INDEX NAVIGARE · MYDENT</span>
+        <a href="index.html" class="mobile-drawer-link">Acasă</a>
+        <a href="servicii.html" class="mobile-drawer-link">Servicii</a>
+        <a href="despre-noi.html" class="mobile-drawer-link">Spațiu &amp; Concept</a>
+        <a href="index.html#recenzii" class="mobile-drawer-link">Recenzii</a>
+        <a href="index.html#faq" class="mobile-drawer-link">Întrebări Frecvente</a>
+        <a href="contact.html" class="mobile-drawer-link active">Contact</a>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 1.25rem; padding-top: 2rem; border-top: 1px solid var(--color-borders);">
+        <a href="#programare" class="btn-editorial-primary" style="width: 100%; text-align: center;">
+          <span>Solicită o programare</span>
+          <span>+</span>
+        </a>
+        <div style="display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.82rem;">
+          <div style="color: var(--color-text-secondary); text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.12em;">Recepție Oradea</div>
+          <a href="tel:+40359451633" style="font-weight: 600; color: var(--color-forest-charcoal); text-decoration: none;">0359 451 633</a>
+          <div style="color: var(--color-text-secondary);">Calea Armatei Române 22, 410087 Oradea, România</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- =========================================================================
+           1. EDITORIAL HEADER BANNER
+           ========================================================================= -->
+      <section style="padding-top: clamp(3rem, 5vw, 5.5rem); padding-bottom: clamp(3rem, 5vw, 4.5rem); background-color: var(--color-white); border-bottom: 1px solid var(--color-borders);">
+        <div class="container">
+          <div style="max-width: 840px;">
+            <span class="editorial-label" style="margin-bottom: 1.25rem; display: block;">
+              COORDONATE CLINICE &amp; CONTACT · ORADEA
+            </span>
+            <h1 class="editorial-hero-title" style="font-size: clamp(2.8rem, 5.5vw, 5rem); margin-bottom: 1.5rem;">
+              Contactează MyDent<br />
+              <em>Stomatologie.</em>
+            </h1>
+            <p class="lead-editorial" style="line-height: 1.75; color: var(--color-text-main);">
+              Suntem aici pentru a-ți răspunde la întrebări și a stabili o vizită adaptată programului tău. Ne poți contacta direct prin telefon sau poți transmite o solicitare de programare online.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================================
+           2. CONTACT INDEX & REAL ENTRANCE PHOTOGRAPHY (PALE SAGE #EAF0ED)
+           ========================================================================= -->
+      <section style="padding-top: 6rem; padding-bottom: 6rem; background-color: var(--color-sec-bg); border-bottom: 1px solid var(--color-borders);">
+        <div class="container">
+          <div style="display: grid; grid-template-columns: repeat(12, 1fr); gap: clamp(2rem, 4vw, 3.5rem); align-items: stretch;">
+            
+            <!-- Left 5 Columns -->
+            <div style="grid-column: span 5;" class="contact-info-col">
+              <div style="background-color: var(--color-white); border: 1px solid var(--color-borders); padding: clamp(2rem, 3.5vw, 3rem); display: flex; flex-direction: column; gap: 2.25rem; height: 100%; justify-content: space-between; box-shadow: 0 8px 30px rgba(32, 45, 41, 0.04); border-radius: 2px;">
+                <!-- 01. Telefon -->
+                <div style="border-bottom: 1px solid var(--color-borders); padding-bottom: 1.75rem;">
+                  <div style="display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.75rem;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-accent)" stroke-width="1.3"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span class="editorial-label" style="font-size: 0.72rem;">01 / LINIE DIRECTĂ RECEPȚIE</span>
+                  </div>
+                  <a href="tel:+40359451633" style="font-family: var(--font-serif); font-size: 2.1rem; font-weight: 400; color: var(--color-forest-charcoal); display: block; text-decoration: none; line-height: 1.1; margin-bottom: 0.5rem;">
+                    0359 451 633
+                  </a>
+                  <p class="caption-editorial" style="margin: 0; color: var(--color-text-secondary);">
+                    Apelabil de luni până vineri în timpul orelor de program pentru informații și programări.
+                  </p>
+                </div>
+
+                <!-- 02. Adresă -->
+                <div style="border-bottom: 1px solid var(--color-borders); padding-bottom: 1.75rem;">
+                  <div style="display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.75rem;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-accent)" stroke-width="1.3"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                    <span class="editorial-label" style="font-size: 0.72rem;">02 / SEDIU &amp; ACCES CLINICĂ</span>
+                  </div>
+                  <div style="font-weight: 600; font-size: 1.05rem; color: var(--color-forest-charcoal); margin-bottom: 0.35rem;">
+                    Calea Armatei Române 22, 410087 Oradea, România
+                  </div>
+                  <p class="caption-editorial" style="margin: 0 0 0.85rem 0; color: var(--color-text-secondary);">
+                    Parter, acces stradal direct și locuri de parcare disponibile în proximitate pe străzile adiacente.
+                  </p>
+                  <a href="https://www.google.com/maps/search/?api=1&query=Calea+Armatei+Rom%C3%A2ne+22,+410087+Oradea,+Rom%C3%A2nia" target="_blank" rel="noopener noreferrer" class="editorial-link" style="font-size: 0.76rem;">
+                    <span>Deschide traseul în Google Maps</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                  </a>
+                </div>
+
+                <!-- 03. Program -->
+                <div>
+                  <div style="display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.75rem;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-accent)" stroke-width="1.3"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span class="editorial-label" style="font-size: 0.72rem;">03 / INTERVAL OPERAȚIONAL</span>
+                  </div>
+
+                  <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+                    <div style="display: flex; justify-content: space-between; font-size: 0.86rem; padding-bottom: 0.35rem; border-bottom: 1px dotted var(--color-borders);">
+                      <span style="color: var(--color-text-secondary);">Luni – Vineri</span>
+                      <span style="font-weight: 600; color: var(--color-forest-charcoal);">10:00 – 18:00</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: 0.86rem; padding-bottom: 0.35rem; border-bottom: 1px dotted var(--color-borders);">
+                      <span style="color: var(--color-text-secondary);">Sâmbătă</span>
+                      <span style="font-weight: 600; color: var(--color-text-secondary);">Închis</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: 0.86rem; padding-bottom: 0.35rem; border-bottom: 1px dotted var(--color-borders);">
+                      <span style="color: var(--color-text-secondary);">Duminică</span>
+                      <span style="font-weight: 600; color: var(--color-text-secondary);">Închis</span>
+                    </div>
+                  </div>
+
+                  <div class="caption-editorial" style="margin-top: 1.25rem; color: var(--color-text-secondary);">
+                    COORDONATE GPS: 47.0515° N, 21.9288° E
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right 7 Columns -->
+            <div style="grid-column: span 7;" class="contact-map-col">
+              <div style="display: flex; flex-direction: column; gap: 1.75rem; height: 100%;">
+                <div style="border: 1px solid var(--color-borders); overflow: hidden; background-color: var(--color-white); box-shadow: 0 8px 30px rgba(32, 45, 41, 0.04); border-radius: 2px;">
+                  <img src="images/clinic/entrance_door.jpg" alt="Intrarea reală a clinicii MyDent pe Calea Armatei Române 22 cu sigla și programul afișat" style="width: 100%; height: 320px; object-fit: cover; object-position: center 20%; display: block;" />
+                </div>
+
+                <div style="flex-grow: 1; min-height: 280px; border: 1px solid var(--color-borders); overflow: hidden; background-color: var(--color-white); border-radius: 2px; box-shadow: 0 8px 30px rgba(32, 45, 41, 0.04);">
+                  <iframe title="Harta localizare MyDent Stomatologie Oradea" width="100%" height="100%" style="border: 0; min-height: 280px; display: block;" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Calea+Armatei+Romane+22,+Oradea,+Romania&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================================
+           3. APPOINTMENT RESERVATION SECTION
+           ========================================================================= -->
+      <section id="programare" style="background-color: var(--color-main-bg); padding: 6rem 0; border-top: 1px solid var(--color-borders);">
+        <div class="container" style="max-width: 1080px;">
+          <div style="max-width: 720px; margin: 0 auto 3.5rem auto; text-align: center; padding-bottom: 2.5rem; border-bottom: 1px solid var(--color-borders);">
+            <h2 class="headline-section" style="margin-bottom: 1rem;">
+              Hai să stabilim o vizită<em>.</em>
+            </h2>
+            <p class="lead-editorial" style="margin: 0 auto; color: var(--color-text-main);">
+              Fiecare programare începe cu o discuție calmă și respect pentru timpul tău. Recepția MyDent te va contacta telefonic pentru stabilirea de comun acord a intervalului optim de consultație.
+            </p>
+          </div>
+
+          <div style="background-color: var(--color-white); border: 1px solid var(--color-borders); padding: clamp(2rem, 5vw, 3.5rem); box-shadow: 0 8px 30px rgba(32, 45, 41, 0.04); border-radius: 2px;">
+            <div id="formSuccessBox" style="display: none; text-align: left; padding: 2rem; border-left: 3px solid var(--color-primary-accent); background-color: var(--color-sec-bg); border-radius: 2px;">
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.8rem; color: var(--color-primary-accent);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                <span class="editorial-label">SOLICITARE ÎNREGISTRATĂ CU SUCCES</span>
+              </div>
+              <h3 style="font-family: var(--font-serif); font-size: 2rem; font-weight: 400; margin-bottom: 0.75rem; color: var(--color-forest-charcoal);">
+                Vă mulțumim pentru încredere<em>.</em>
+              </h3>
+              <p class="body-editorial" style="margin-bottom: 1.5rem; max-width: 680px; color: var(--color-text-main);">
+                Cererea ta a fost transmisă. Un reprezentant MyDent te va contacta telefonic în intervalul orelor de program (Luni – Vineri: 10:00 – 18:00) pentru a confirma data și ora exactă.
+              </p>
+              <div style="padding: 1rem 1.25rem; background-color: var(--color-soft-sage); border: 1px solid var(--color-borders); font-size: 0.82rem; color: var(--color-forest-charcoal); margin-bottom: 1.75rem;">
+                <strong>Notă de conformitate:</strong> Aceasta reprezintă o solicitare preliminară. Rezervarea devine definitivă numai după confirmarea telefonică directă cu personalul clinicii.
+              </div>
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <button type="button" id="formResetBtn" class="btn-editorial-outline">Trimite altă solicitare</button>
+                <a href="tel:+40359451633" class="btn-editorial-primary">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <span>Apelează recepția: 0359 451 633</span>
+                </a>
+              </div>
+            </div>
+
+            <form id="appointmentForm" novalidate>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div>
+                  <label for="fullName" class="form-editorial-label">01. Nume și prenume <span class="req">*</span></label>
+                  <input id="fullName" type="text" required class="form-editorial-input" placeholder="ex. Maria Ionescu" />
+                  <span id="fullNameError" style="display: none; font-size: 0.75rem; color: #b93838; margin-top: 0.35rem; font-family: var(--font-sans);"></span>
+                </div>
+                <div>
+                  <label for="phone" class="form-editorial-label">02. Număr de telefon <span class="req">*</span></label>
+                  <input id="phone" type="tel" required class="form-editorial-input" placeholder="ex. 0740 000 000" />
+                  <span id="phoneError" style="display: none; font-size: 0.75rem; color: #b93838; margin-top: 0.35rem; font-family: var(--font-sans);"></span>
+                </div>
+              </div>
+
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div>
+                  <label for="email" class="form-editorial-label">03. Adresă de e-mail <span style="color: var(--color-text-secondary); font-weight: 400;">(opțional)</span></label>
+                  <input id="email" type="email" class="form-editorial-input" placeholder="ex. maria@exemplu.ro" />
+                  <span id="emailError" style="display: none; font-size: 0.75rem; color: #b93838; margin-top: 0.35rem; font-family: var(--font-sans);"></span>
+                </div>
+                <div>
+                  <label for="service" class="form-editorial-label">04. Serviciul stomatologic dorit <span class="req">*</span></label>
+                  <select id="service" class="form-editorial-select">
+                    <option value="Consultație și plan de tratament">[01] Consultație și plan de tratament</option>
+                    <option value="Detartraj și igienizare profesională">[02] Detartraj și igienizare profesională</option>
+                    <option value="Estetică dentară">[03] Estetică dentară</option>
+                    <option value="Albire dentară">[04] Albire dentară</option>
+                    <option value="Implantologie">[05] Implantologie</option>
+                    <option value="Tratamente fără durere">[06] Tratamente fără durere</option>
+                    <option value="Alte servicii">[07] Altă consultație sau tratament</option>
+                  </select>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 2rem;">
+                <label for="preferredDate" class="form-editorial-label">05. Data preferată pentru vizită <span style="color: var(--color-text-secondary); font-weight: 400;">(opțional)</span></label>
+                <input id="preferredDate" type="date" class="form-editorial-input" style="max-width: 280px;" />
+                <span class="caption-editorial" style="display: block; margin-top: 0.4rem; color: var(--color-text-secondary);">Program recepție: Luni – Vineri, 10:00 – 18:00 (Sâmbătă &amp; Duminică închis).</span>
+              </div>
+
+              <div style="margin-bottom: 2rem;">
+                <label for="message" class="form-editorial-label">06. Mențiuni sau detalii suplimentare <span style="color: var(--color-text-secondary); font-weight: 400;">(opțional)</span></label>
+                <textarea id="message" rows="3" class="form-editorial-textarea" placeholder="Dacă ai o sensibilitate deosebită, întrebări preliminare sau o preferință de orar, le poți nota aici."></textarea>
+              </div>
+
+              <div style="margin-bottom: 2.5rem;">
+                <label style="display: flex; align-items: flex-start; gap: 0.75rem; cursor: pointer; font-size: 0.84rem; color: var(--color-text-secondary); line-height: 1.5;">
+                  <input type="checkbox" id="privacyConsent" style="margin-top: 3px; accent-color: var(--color-primary-accent); width: 16px; height: 16px; border-radius: 2px;" />
+                  <span>
+                    Sunt de acord cu prelucrarea datelor în vederea contactării pentru programare, conform
+                    <a href="politica-confidentialitate.html" target="_blank" style="color: var(--color-forest-charcoal); text-decoration: underline;">Politicii de confidențialitate</a>. <span class="req">*</span>
+                  </span>
+                </label>
+                <span id="privacyConsentError" style="display: none; font-size: 0.75rem; color: #b93838; margin-top: 0.35rem; margin-left: 1.75rem; font-family: var(--font-sans);"></span>
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 1.75rem; flex-wrap: wrap;">
+                <button type="submit" class="btn-editorial-primary" style="min-width: 240px;">
+                  <span>Solicită o programare</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                </button>
+                <span class="caption-editorial" style="max-width: 400px; color: var(--color-text-secondary);">
+                  Datele sunt utilizate strict pentru confirmarea telefonică a vizitei tale.
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--color-borders);">
+          <div style="display: flex; flex-direction: column; gap: 0.65rem;">
+            <a href="index.html" style="display: inline-block; text-decoration: none;" aria-label="MyDent Stomatologie Oradea - Acasă">
+              <img src="images/mydent-logo.png" alt="MyDent Stomatologie Oradea" style="height: 52px; width: auto; display: block; object-fit: contain;" />
+            </a>
+            <div style="font-size: 0.86rem; color: var(--color-text-secondary);">
+              Calea Armatei Române 22 · Oradea, România
+            </div>
+          </div>
+
+          <a href="tel:0759064150" class="btn-editorial-outline" style="padding: 0.65rem 1.35rem; font-size: 0.76rem; border-radius: 999px; text-decoration: none;">
+            <span>Recepție: 0759 064 150</span>
+          </a>
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem; padding-top: 2rem; font-size: 0.76rem; color: var(--color-text-secondary);">
+          <div>© 2026 MyDent Stomatologie. Toate drepturile rezervate.</div>
+          <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+            <a href="politica-confidentialitate.html" class="editorial-link" style="font-size: 0.76rem; color: var(--color-text-secondary); text-transform: none; letter-spacing: normal; font-weight: 500;">
+              Politica de confidențialitate
+            </a>
+            <a href="politica-cookies.html" class="editorial-link" style="font-size: 0.76rem; color: var(--color-text-secondary); text-transform: none; letter-spacing: normal; font-weight: 500;">
+              Politica de cookies
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieBanner" class="cookie-banner" role="region" aria-label="Setări confidențialitate și module cookie">
+      <div class="container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem;">
+        <div style="max-width: 720px;">
+          <div style="display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.35rem;">
+            <span class="editorial-label" style="font-size: 0.68rem;">CONFIDENȚIALITATE &amp; DATE TEHNICE</span>
+          </div>
+          <p class="caption-editorial" style="margin: 0; line-height: 1.55; color: var(--color-forest-charcoal);">
+            Utilizăm exclusiv module cookie tehnice pentru buna funcționare a interfeței. Respectăm confidențialitatea datelor tale și nu utilizăm trackere de marketing intruzive. Consultați
+            <a href="politica-cookies.html" class="editorial-link" style="font-size: 0.74rem;">Politica de cookies</a> și
+            <a href="politica-confidentialitate.html" class="editorial-link" style="font-size: 0.74rem;">Politica de confidențialitate</a>.
+          </p>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+          <button type="button" id="cookieAcceptEssential" class="btn-editorial-outline" style="padding: 0.55rem 1rem; font-size: 0.72rem;">Doar esențiale</button>
+          <button type="button" id="cookieAcceptAll" class="btn-editorial-primary" style="padding: 0.55rem 1.15rem; font-size: 0.72rem;">Acceptă selecția</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
