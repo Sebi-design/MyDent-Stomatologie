@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const hour = roDate.getHours();
 
         const isOpenDay = day >= 1 && day <= 5;
-        const isOpenHour = hour >= 10 && hour < 18;
+        const isOpenHour = hour >= 10 && hour < 19;
         const isOpen = isOpenDay && isOpenHour;
 
         statusBadges.forEach((badge) => {
@@ -84,27 +84,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
           if (isOpen) {
             badge.classList.remove('closed');
-            textSpan.textContent = 'Deschis acum · Până la 18:00';
+            textSpan.textContent = 'Deschis acum · Până la 19:00';
             badge.title = 'Clinica este deschisă acum. Vă așteptăm cu drag!';
           } else {
             badge.classList.add('closed');
             if (isOpenDay && hour < 10) {
               textSpan.textContent = 'Închis acum · Se deschide la 10:00';
-            } else if (day === 5 && hour >= 18) {
+            } else if (day === 5 && hour >= 19) {
               textSpan.textContent = 'Închis · Se deschide Luni la 10:00';
             } else if (day === 6 || day === 0) {
               textSpan.textContent = 'Închis în weekend · Se deschide Luni la 10:00';
             } else {
               textSpan.textContent = 'Recepție închisă · Se deschide mâine la 10:00';
             }
-            badge.title = 'Program recepție MyDent: Luni – Vineri, 10:00 – 18:00';
+            badge.title = 'Program recepție MyDent: Luni – Vineri, 10:00 – 19:00';
           }
         });
       } catch (err) {
         // Fallback gracefully
         statusBadges.forEach((badge) => {
           const textSpan = badge.querySelector('.status-text');
-          if (textSpan) textSpan.textContent = 'Luni – Vineri: 10:00 – 18:00';
+          if (textSpan) textSpan.textContent = 'Luni – Vineri: 10:00 – 19:00';
         });
       }
     };

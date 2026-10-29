@@ -519,6 +519,48 @@ h1, h2, h3, h4 {
   transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s ease;
 }
 
+.service-row-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-row-title-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: clamp(0.75rem, 2vw, 1.25rem);
+  flex-wrap: nowrap;
+  flex: 1;
+  min-width: 0;
+}
+
+.service-row-number {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-primary-accent);
+  min-width: 24px;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+.service-row-title-wrap h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.25rem, 2.3vw, 1.95rem);
+  font-weight: 400;
+  color: var(--color-forest-charcoal);
+  margin: 0;
+  line-height: 1.2;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.service-row-desc {
+  padding-left: clamp(2rem, 3.8vw, 2.75rem);
+}
+
 /* Gallery & Cards */
 .gallery-editorial-card {
   grid-column: span 4;
@@ -1107,6 +1149,10 @@ h1, h2, h3, h4 {
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
   }
+  .service-row-desc {
+    padding-left: 0 !important;
+    margin-top: 0.35rem !important;
+  }
   .contact-card-editorial {
     padding: 1.25rem 1rem !important;
     border-radius: 12px !important;
@@ -1122,7 +1168,8 @@ h1, h2, h3, h4 {
     border-radius: 12px !important;
   }
   .contact-card-map {
-    height: 200px !important;
+    height: 220px !important;
+    min-height: 220px !important;
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -1528,8 +1575,8 @@ h1, h2, h3, h4 {
 
 .contact-card-map {
   width: 100%;
-  height: 220px;
-  min-height: 200px;
+  height: 240px;
+  min-height: 220px;
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid var(--color-borders);
@@ -1539,6 +1586,14 @@ h1, h2, h3, h4 {
   position: relative;
   background-color: var(--color-sec-bg);
   box-sizing: border-box;
+}
+
+.contact-card-map iframe {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 220px !important;
+  border: 0 !important;
+  display: block !important;
 }
 
 
