@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echipa Medicală | MyDent Stomatologie Oradea</title>
+    <meta name="description" content="Fă cunoștință cu echipa de medici MyDent Stomatologie Oradea. Profesioniști dedicați zâmbetului tău, ghidați de răbdare, empatie și tehnici moderne pe Calea Armatei Române 22." />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=5" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png?v=5" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=5" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=5" />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Echipa Medicală | MyDent Stomatologie Oradea" />
+    <meta property="og:description" content="Medici dedicați zâmbetului tău la MyDent Oradea. Răbdare, rigoare și confort pentru întreaga familie." />
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:image" content="images/clinic/reception.jpg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Site Header -->
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="index.html" style="display: flex; align-items: center; text-decoration: none;" aria-label="MyDent Stomatologie Oradea - Acasă">
+          <img src="images/mydent-logo.png" alt="MyDent Stomatologie Oradea" class="header-brand-logo" />
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navigare principală">
+          <a href="index.html" class="editorial-nav-item">Acasă</a>
+          <a href="servicii.html" class="editorial-nav-item">Servicii</a>
+          <a href="echipa.html" class="editorial-nav-item active">Echipă</a>
+          <a href="despre-noi.html" class="editorial-nav-item">Spațiu &amp; Concept</a>
+          <a href="index.html#recenzii" class="editorial-nav-item">Recenzii</a>
+          <a href="index.html#faq" class="editorial-nav-item">Întrebări Frecvente</a>
+          <a href="contact.html" class="editorial-nav-item">Contact</a>
+        </nav>
+
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <a href="contact.html#programare" class="btn-nav-enquire desktop-enquire-btn">
+            <span>Programare</span>
+            <span style="font-size: 0.85rem; line-height: 1; color: var(--color-primary-accent);">+</span>
+          </a>
+
+          <button type="button" class="mobile-toggle" id="mobileToggleBtn" aria-expanded="false" aria-label="Deschide meniul principal">
+            <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="display: none;"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Meniu de navigare">
+      <div style="display: flex; flex-direction: column;">
+        <a href="index.html" class="mobile-drawer-link">Acasă</a>
+        <a href="servicii.html" class="mobile-drawer-link">Servicii</a>
+        <a href="echipa.html" class="mobile-drawer-link active">Echipă</a>
+        <a href="despre-noi.html" class="mobile-drawer-link">Spațiu &amp; Concept</a>
+        <a href="index.html#recenzii" class="mobile-drawer-link">Recenzii</a>
+        <a href="index.html#faq" class="mobile-drawer-link">Întrebări Frecvente</a>
+        <a href="contact.html" class="mobile-drawer-link">Contact</a>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 1.25rem; padding-top: 2rem; border-top: 1px solid var(--color-borders);">
+        <a href="contact.html#programare" class="btn-editorial-primary" style="width: 100%; text-align: center;">
+          <span>Solicită o programare</span>
+          <span>+</span>
+        </a>
+        <div style="display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.82rem;">
+          <div style="color: var(--color-text-secondary); text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.12em;">Recepție Oradea</div>
+          <a href="tel:+40359451633" style="font-weight: 600; color: var(--color-forest-charcoal); text-decoration: none;">0359 451 633</a>
+          <div style="color: var(--color-text-secondary);">Calea Armatei Române 22, 410087 Oradea, România</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- =========================================================================
+           1. HERO BANNER ECHIPĂ
+           ========================================================================= -->
+      <section style="padding-top: clamp(3.5rem, 6vw, 5.5rem); padding-bottom: clamp(3rem, 5vw, 4.5rem); background-color: var(--color-white); border-bottom: 1px solid var(--color-borders);">
+        <div class="container">
+          <div style="max-width: 820px; margin: 0 auto; text-align: center;">
+            <div style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background-color: var(--color-sec-bg); border: 1px solid var(--color-borders); padding: 0.4rem 1.25rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-forest-charcoal); margin-bottom: 1.5rem;">
+              ECHIPA MEDICALĂ
+            </div>
+            
+            <h1 class="editorial-hero-title" style="font-size: clamp(2.5rem, 5vw, 4.2rem); margin-bottom: 1.35rem; line-height: 1.15;">
+              Medici dedicați<br />
+              <em>zâmbetului tău.</em>
+            </h1>
+            
+            <p class="lead-editorial" style="line-height: 1.75; color: var(--color-text-main); font-size: clamp(1.05rem, 2vw, 1.25rem); max-width: 680px; margin: 0 auto 1.5rem;">
+              O echipă caldă și profesionistă, ghidată de răbdare, empatie și tehnici moderne pentru confortul tău.
+            </p>
+
+            <div style="display: inline-flex; align-items: center; gap: 0.6rem; background: #FAF8F5; border: 1px dashed rgba(184, 151, 98, 0.45); padding: 0.55rem 1.15rem; border-radius: 999px; font-size: 0.78rem; color: #8A6D3B;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+              <span>Fotografiile și numele medicilor sunt pregătite pentru actualizare imediată la primirea materialelor finale.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================================
+           2. GRID CELE 4 PROFILE DE MEDICI CU PLACEHOLDER EDITABIL
+           ========================================================================= -->
+      <section style="padding: clamp(3.5rem, 6vw, 6rem) 0; background-color: var(--color-sec-bg); border-bottom: 1px solid var(--color-borders);">
+        <div class="container">
+          
+          <div class="team-grid">
+            
+            <!-- ===============================================================
+                 MEDIC 1: STOMATOLOGIE GENERALĂ & PROTETICĂ
+                 INSTRUCTIUNE EDITARE:
+                 - Când primiți poza oficială, plasați fișierul în folderul images/ (ex: images/medic-1.jpg)
+                 - Înlocuiți conținutul din .doctor-photo-box cu:
+                   <img src="images/medic-1.jpg" alt="Dr. Nume Prenume" class="doctor-real-img" />
+                 - Înlocuiți "Dr. Medic Stomatolog" cu numele real al medicului.
+                 =============================================================== -->
+            <article class="doctor-card reveal-init stagger-1">
+              <div class="doctor-photo-box">
+                <!-- Zona placeholder pentru poză -->
+                <div class="doctor-placeholder-wrap">
+                  <div class="doctor-placeholder-icon-wrap" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+                      <circle cx="12" cy="13" r="3"/>
+                    </svg>
+                  </div>
+                  <div class="doctor-placeholder-title">Fotografie în curând</div>
+                  <div class="doctor-placeholder-sub">Spațiu rezervat imagine oficială</div>
+                  <label class="btn-upload-doctor-photo">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                    <span>Încarcă imagine</span>
+                    <input type="file" class="doctor-photo-input" accept="image/*" style="display: none;" />
+                  </label>
+                </div>
+
+                <!-- Tag caracteristică -->
+                <div class="doctor-tag-badge">RĂBDARE &amp; BLÂNDEȚE</div>
+              </div>
+
+              <div class="doctor-card-body">
+                <div class="doctor-specialty">STOMATOLOGIE GENERALĂ &amp; PROTETICĂ</div>
+                <h2 class="doctor-name">Dr. Medic Stomatolog</h2>
+                <p class="doctor-desc">
+                  Abordare caldă și atentă, axată pe prevenție, restaurări directe de înaltă precizie și crearea unei experiențe stomatologice sigure și relaxante.
+                </p>
+                <div class="doctor-card-footer">
+                  <span style="font-size: 0.72rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;">Cabinet 01</span>
+                  <a href="contact.html#programare" class="editorial-link" style="font-size: 0.78rem;">Programează <span>→</span></a>
+                </div>
+              </div>
+            </article>
+
+            <!-- ===============================================================
+                 MEDIC 2: ORTODONȚIE & ESTETICĂ DENTARĂ
+                 =============================================================== -->
+            <article class="doctor-card reveal-init stagger-2">
+              <div class="doctor-photo-box">
+                <div class="doctor-placeholder-wrap">
+                  <div class="doctor-placeholder-icon-wrap" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+                      <circle cx="12" cy="13" r="3"/>
+                    </svg>
+                  </div>
+                  <div class="doctor-placeholder-title">Fotografie în curând</div>
+                  <div class="doctor-placeholder-sub">Spațiu rezervat imagine oficială</div>
+                  <label class="btn-upload-doctor-photo">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                    <span>Încarcă imagine</span>
+                    <input type="file" class="doctor-photo-input" accept="image/*" style="display: none;" />
+                  </label>
+                </div>
+
+                <div class="doctor-tag-badge">RIGOARE &amp; PRECIZIE</div>
+              </div>
+
+              <div class="doctor-card-body">
+                <div class="doctor-specialty">ORTODONȚIE &amp; ESTETICĂ DENTARĂ</div>
+                <h2 class="doctor-name">Dr. Medic Stomatolog</h2>
+                <p class="doctor-desc">
+                  Dedicat alinierii dento-maxilare și fațetelor estetice. Planifică fiecare tratament cu minuțiozitate pentru un rezultat armonios și durabil.
+                </p>
+                <div class="doctor-card-footer">
+                  <span style="font-size: 0.72rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;">Cabinet 02</span>
+                  <a href="contact.html#programare" class="editorial-link" style="font-size: 0.78rem;">Programează <span>→</span></a>
+                </div>
+              </div>
+            </article>
+
+            <!-- ===============================================================
+                 MEDIC 3: CHIRURGIE & IMPLANTOLOGIE
+                 =============================================================== -->
+            <article class="doctor-card reveal-init stagger-3">
+              <div class="doctor-photo-box">
+                <div class="doctor-placeholder-wrap">
+                  <div class="doctor-placeholder-icon-wrap" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+                      <circle cx="12" cy="13" r="3"/>
+                    </svg>
+                  </div>
+                  <div class="doctor-placeholder-title">Fotografie în curând</div>
+                  <div class="doctor-placeholder-sub">Spațiu rezervat imagine oficială</div>
+                  <label class="btn-upload-doctor-photo">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                    <span>Încarcă imagine</span>
+                    <input type="file" class="doctor-photo-input" accept="image/*" style="display: none;" />
+                  </label>
+                </div>
+
+                <div class="doctor-tag-badge">SIGURANȚĂ &amp; CONFORT</div>
+              </div>
+
+              <div class="doctor-card-body">
+                <div class="doctor-specialty">CHIRURGIE &amp; IMPLANTOLOGIE</div>
+                <h2 class="doctor-name">Dr. Medic Stomatolog</h2>
+                <p class="doctor-desc">
+                  Intervenții chirurgicale blânde, inserare precisă de implanturi din titan certificate și reabilitări orale rapide, ghidate digital.
+                </p>
+                <div class="doctor-card-footer">
+                  <span style="font-size: 0.72rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;">Chirurgie</span>
+                  <a href="contact.html#programare" class="editorial-link" style="font-size: 0.78rem;">Programează <span>→</span></a>
+                </div>
+              </div>
+            </article>
+
+            <!-- ===============================================================
+                 MEDIC 4: ENDODONȚIE MICROSCOPICĂ & PEDODONȚIE
+                 =============================================================== -->
+            <article class="doctor-card reveal-init stagger-4">
+              <div class="doctor-photo-box">
+                <div class="doctor-placeholder-wrap">
+                  <div class="doctor-placeholder-icon-wrap" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+                      <circle cx="12" cy="13" r="3"/>
+                    </svg>
+                  </div>
+                  <div class="doctor-placeholder-title">Fotografie în curând</div>
+                  <div class="doctor-placeholder-sub">Spațiu rezervat imagine oficială</div>
+                  <label class="btn-upload-doctor-photo">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                    <span>Încarcă imagine</span>
+                    <input type="file" class="doctor-photo-input" accept="image/*" style="display: none;" />
+                  </label>
+                </div>
+
+                <div class="doctor-tag-badge">EMPATIE &amp; TEHNOLOGIE</div>
+              </div>
+
+              <div class="doctor-card-body">
+                <div class="doctor-specialty">ENDODONȚIE MICROSCOPICĂ &amp; PREVENȚIE</div>
+                <h2 class="doctor-name">Dr. Medic Stomatolog</h2>
+                <p class="doctor-desc">
+                  Tehnici avansate de salvare a dinților naturali prin microscop endodontic și atenție deosebită pentru igiena dentară și stomatologia pediatrică.
+                </p>
+                <div class="doctor-card-footer">
+                  <span style="font-size: 0.72rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;">Endodonție</span>
+                  <a href="contact.html#programare" class="editorial-link" style="font-size: 0.78rem;">Programează <span>→</span></a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =========================================================================
+           3. VALORILE ECHIPEI NOASTRE
+           ========================================================================= -->
+      <section style="padding: clamp(3.5rem, 6vw, 5.5rem) 0; background-color: var(--color-white); border-bottom: 1px solid var(--color-borders);">
+        <div class="container">
+          <div style="max-width: 680px; margin-bottom: 3.5rem;">
+            <span class="editorial-label" style="margin-bottom: 1rem; display: block;">PRINCIPII CLINICE · MYDENT ORADEA</span>
+            <h2 class="headline-section" style="margin-bottom: 1rem;">
+              Cum lucrăm pentru <em>liniștea ta.</em>
+            </h2>
+            <p class="lead-editorial" style="margin: 0; color: var(--color-text-main);">
+              La MyDent, fiecare membru al echipei împărtășește aceeași filosofie: stomatologie realizată cu empatie, fără durere și fără compromisuri în privința calității.
+            </p>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
+            
+            <div style="padding: 2rem; background: var(--color-sec-bg); border-radius: 12px; border: 1px solid var(--color-borders);">
+              <div style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 700; color: var(--color-forest-charcoal); margin-bottom: 0.75rem;">01</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.65rem; color: var(--color-forest-charcoal);">Fără grabă, cu răbdare</h3>
+              <p style="font-size: 0.86rem; color: var(--color-text-secondary); line-height: 1.65; margin: 0;">
+                Alocăm timp suficient fiecărei consultații. Ascultăm neliniștile tale și îți explicăm fiecare etapă înainte de a începe orice procedură.
+              </p>
+            </div>
+
+            <div style="padding: 2rem; background: var(--color-sec-bg); border-radius: 12px; border: 1px solid var(--color-borders);">
+              <div style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 700; color: var(--color-forest-charcoal); margin-bottom: 0.75rem;">02</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.65rem; color: var(--color-forest-charcoal);">Tratamente fără durere</h3>
+              <p style="font-size: 0.86rem; color: var(--color-text-secondary); line-height: 1.65; margin: 0;">
+                Folosim protocoale moderne de anestezie locală atraumatică și tehnici minim invazive, astfel încât vizita la dentist să fie lipsită de disconfort.
+              </p>
+            </div>
+
+            <div style="padding: 2rem; background: var(--color-sec-bg); border-radius: 12px; border: 1px solid var(--color-borders);">
+              <div style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 700; color: var(--color-forest-charcoal); margin-bottom: 0.75rem;">03</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.65rem; color: var(--color-forest-charcoal);">Transparență absolută</h3>
+              <p style="font-size: 0.86rem; color: var(--color-text-secondary); line-height: 1.65; margin: 0;">
+                Primești un plan de tratament scris, detaliat pe etape și costuri exacte. Fără surprize neplăcute, cu decizii luate mereu împreună cu tine.
+              </p>
+            </div>
+
+            <div style="padding: 2rem; background: var(--color-sec-bg); border-radius: 12px; border: 1px solid var(--color-borders);">
+              <div style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 700; color: var(--color-forest-charcoal); margin-bottom: 0.75rem;">04</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.65rem; color: var(--color-forest-charcoal);">Sterilizare &amp; Siguranță</h3>
+              <p style="font-size: 0.86rem; color: var(--color-text-secondary); line-height: 1.65; margin: 0;">
+                Protocoale stricte de dezinfecție și sterilizare conform celor mai înalte standarde medicale europene, pentru siguranța ta deplină.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================================
+           4. CTA PROGRAMARE & CONTACT RAPID
+           ========================================================================= -->
+      <section style="padding: clamp(3.5rem, 5vw, 5rem) 0; background-color: var(--color-sec-bg);">
+        <div class="container">
+          <div style="background-color: #FFFFFF; border: 1px solid var(--color-borders); border-radius: 16px; padding: clamp(2.5rem, 5vw, 4rem); box-shadow: 0 10px 30px rgba(32, 45, 41, 0.05); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2.5rem;">
+            
+            <div style="max-width: 580px;">
+              <span class="editorial-label" style="margin-bottom: 0.8rem; display: block;">CONTACT &amp; RECEPTIE ORADEA</span>
+              <h2 class="headline-section" style="font-size: clamp(2rem, 3.8vw, 2.8rem); margin-bottom: 1rem;">
+                Fă o programare la <em>medicii noștri.</em>
+              </h2>
+              <p style="color: var(--color-text-secondary); line-height: 1.65; margin: 0; font-size: 0.95rem;">
+                Suntem pe Calea Armatei Române 22 din Oradea. Te așteptăm într-un spațiu primitor și modern, de luni până vineri între 10:00 și 19:00.
+              </p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem; min-width: 260px;">
+              <a href="contact.html#programare" class="btn-editorial-primary" style="justify-content: center; padding: 1.1rem 2rem;">
+                <span>Programează o consultație</span>
+                <span>+</span>
+              </a>
+              <a href="tel:0359451633" class="btn-editorial-outline" style="justify-content: center; padding: 0.95rem 2rem; text-decoration: none;">
+                <span>Sună la recepție: 0359 451 633</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer style="background-color: var(--color-sec-bg); border-top: 1px solid var(--color-borders); padding-top: 4.5rem; padding-bottom: 3.5rem;">
+      <div class="container">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--color-borders);">
+          <div style="display: flex; flex-direction: column; gap: 0.65rem;">
+            <a href="index.html" style="display: inline-block; text-decoration: none;" aria-label="MyDent Stomatologie Oradea - Acasă">
+              <img src="images/mydent-logo.png" alt="MyDent Stomatologie Oradea" style="height: 52px; width: auto; display: block; object-fit: contain;" />
+            </a>
+            <div style="font-size: 0.86rem; color: var(--color-text-secondary);">
+              Calea Armatei Române 22 · Oradea, România
+            </div>
+          </div>
+
+          <a href="tel:0359451633" class="btn-editorial-outline" style="padding: 0.65rem 1.35rem; font-size: 0.76rem; border-radius: 999px; text-decoration: none;">
+            <span>Recepție: 0359 451 633</span>
+          </a>
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem; padding-top: 2rem; font-size: 0.76rem; color: var(--color-text-secondary);">
+          <div>© 2026 MyDent Stomatologie. Toate drepturile rezervate.</div>
+          <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+            <a href="echipa.html" class="editorial-link" style="font-size: 0.76rem; color: var(--color-forest-charcoal); text-transform: none; letter-spacing: normal; font-weight: 600;">
+              Echipa Medicală
+            </a>
+            <a href="politica-confidentialitate.html" class="editorial-link" style="font-size: 0.76rem; color: var(--color-text-secondary); text-transform: none; letter-spacing: normal; font-weight: 500;">
+              Politica de confidențialitate
+            </a>
+            <a href="politica-cookies.html" class="editorial-link" style="font-size: 0.76rem; color: var(--color-text-secondary); text-transform: none; letter-spacing: normal; font-weight: 500;">
+              Politica de cookies
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button type="button" id="backToTopBtn" class="back-to-top-btn" aria-label="Înapoi sus">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6"/></svg>
+      <span>SUS</span>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -605,4 +605,31 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // 10. Interactive Doctor Photo Preview (Local testing & instant visual feedback)
+  document.querySelectorAll('.doctor-photo-input').forEach((input) => {
+    input.addEventListener('change', function () {
+      const file = this.files && this.files[0];
+      if (file) {
+        const photoBox = this.closest('.doctor-photo-box');
+        if (!photoBox) return;
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          let realImg = photoBox.querySelector('.doctor-real-img');
+          if (!realImg) {
+            realImg = document.createElement('img');
+            realImg.className = 'doctor-real-img';
+            photoBox.prepend(realImg);
+          }
+          realImg.src = e.target.result;
+          realImg.style.display = 'block';
+          const placeholderWrap = photoBox.querySelector('.doctor-placeholder-wrap');
+          if (placeholderWrap) {
+            placeholderWrap.style.display = 'none';
+          }
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+  });
 });
